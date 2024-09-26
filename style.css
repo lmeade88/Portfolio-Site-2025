@@ -275,18 +275,27 @@ section {
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
+  width: 80%;
+  margin: auto;
 }
 
-.about-details-container {
+.details-container {
   justify-content: center;
   flex-direction: column;
   height: 50%;
+  width: 100%;
+  margin: 1rem auto;
+  width: 80%;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  padding: 2rem;
+  flex: 1;
 }
 
-.about-containers,
-.about-details-container {
-  display: flex;
-  flex-direction: column;
+.details-container h2 {
+  text-align: center;
 }
 
 .about-pic {
@@ -297,17 +306,6 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-}
-
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  width: 100%;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
 }
 
 .section-container {
@@ -338,6 +336,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .article-container {

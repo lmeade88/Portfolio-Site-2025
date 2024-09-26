@@ -17,10 +17,6 @@
     text-align: center;
     align-items: center;
   }
-  .about-containers {
-    text-align: center;
-    align-items: center;
-  }
   #desktop-nav {
     display: none;
   }
@@ -30,10 +26,6 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
-  }
-  .details-container {
-    display: block;
-    width: 80%;
   }
   #profile,
   .section-container {
@@ -63,13 +55,6 @@
   body {
     text-align: center;
     align-items: center;
-  }
-  .about-containers {
-    align-items: center;
-  }
-  .details-container {
-    display: block;
-    width: 20%;
   }
   #contact,
   footer {
